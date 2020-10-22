@@ -46,7 +46,7 @@ export default function Requestform() {
                     <div className="col-lg-5">
                         {/* Request form */}
                         <div className="form-container">
-                        <form id="requestform" data-toggle="validator" data-focus="false">
+                        <form id="requestform" data-toggle="validator" data-focus="false"  action="https://formspree.io/f/xzbkrawq" method="POST">
                             <div className="form-group">
                             <input type="text" className="form-control-input" id="rname" name="rname" required />
                             <label className="label-control" htmlFor="rname">Name</label>
