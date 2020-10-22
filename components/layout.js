@@ -8,7 +8,7 @@ export default function Layout({ children }) {
         <div>
             <Head>
                 <title>Precelerator - Der Community-Space am SCE</title>
-                <meta charset="utf-8" />
+                <meta charSet="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
                 {/* SEO Meta Tags */}
