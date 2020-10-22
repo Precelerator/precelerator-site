@@ -35,9 +35,9 @@ export default function Footer() {
                             <i className="fas fa-square"></i>
                             <div className="media-body">
                                 Lies unsere 
-                                <a className="turquoise" href="disclaimer.html"> Terms & Conditions</a>, 
-                                <a className="turquoise" href="privacy-policy.html"> Privacy Policy</a>, 
-                                <a className="turquoise" href="impressum.html"> Impressum</a>
+                                <a className="turquoise" href="/disclaimer"> Terms & Conditions</a>, 
+                                <a className="turquoise" href="/privacy-policy"> Privacy Policy</a>, 
+                                <a className="turquoise" href="/impressum"> Impressum</a>
                             </div>
                             </li>
                         </ul>

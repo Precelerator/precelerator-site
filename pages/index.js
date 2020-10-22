@@ -10,7 +10,7 @@ import Contact from '../sections/contact'
 
 export default function Home() {
   return (
-    <Layout>      
+    <Layout home={true}>      
       <Header></Header>
       <Institutions></Institutions>
       <Services></Services>

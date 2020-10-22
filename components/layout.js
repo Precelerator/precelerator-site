@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Navigation from '../sections/navigation'
+import Navigation2 from '../sections/navigation2'
 import Footer from '../sections/footer'
 import Copyright from '../sections/copyright'
 
-export default function Layout({ children }) {
+export default function Layout({ children, home }) {
     return (
         <div>
             <Head>
@@ -61,7 +62,7 @@ export default function Layout({ children }) {
                 <script src="/js/scripts.js"></script>
                 {/* Custom scripts */}
             </Head>
-            <Navigation></Navigation>            
+            { home ? <Navigation></Navigation> : <Navigation2></Navigation2> }           
             {children}
             <Footer></Footer>
             <Copyright></Copyright>

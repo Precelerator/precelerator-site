@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Navigation() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
@@ -25,19 +27,19 @@ export default function Navigation() {
       <div className="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <a className="nav-link page-scroll" href="#header">Home <span className="sr-only">(current)</span></a>
+            <a className="nav-link" href="/">Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link page-scroll" href="#services">Angebote</a>
+            <a className="nav-link" href="/">Angebote</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link page-scroll" href="#request">Beratung</a>
+            <a className="nav-link" href="/">Beratung</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link page-scroll" href="#about">Team</a>
+            <a className="nav-link" href="/">Team</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link page-scroll" href="#contact">Kontakt</a>
+            <a className="nav-link" href="/">Kontakt</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="https://precelerator.github.io/blog" target="_blank" rel="noopener"
