@@ -35,34 +35,34 @@ export default function Contact() {
                     {/* end of col */}
                     <div className="col-lg-6">
                         {/* Contact form */}
-                        <form id="contactform" data-toggle="validator" data-focus="false">
-                        <div className="form-group">
-                            <input type="text" className="form-control-input" id="cname" required />
-                            <label className="label-control" htmlFor="cname">Name</label>
-                            <div className="help-block with-errors"></div>
-                        </div>
-                        <div className="form-group">
-                            <input type="email" className="form-control-input" id="cemail" required />
-                            <label className="label-control" htmlFor="cemail">E-Mail</label>
-                            <div className="help-block with-errors"></div>
-                        </div>
-                        <div className="form-group">
-                            <textarea className="form-control-textarea" id="cmessage" required></textarea>
-                            <label className="label-control" htmlFor="cmessage">Nachricht</label>
-                            <div className="help-block with-errors"></div>
-                        </div>
-                        <div className="form-group checkbox">
-                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required />Ich habe die
-                            <a href="privacy-policy.html">Datenschutzerklärung</a> sowie den
-                            <a href="disclaimer.html">Haftungsausschluss</a> zur Kenntnis genommen und stimme diesen zu.
-                            <div className="help-block with-errors"></div>
-                        </div>
-                        <div className="form-group">
-                            <button type="submit" className="form-control-submit-button">ABSENDEN</button>
-                        </div>
-                        <div className="form-message">
-                            <div id="cmsgSubmit" className="h3 text-center hidden"></div>
-                        </div>
+                        <form id="contactform" data-toggle="validator" data-focus="false" action="https://formspree.io/f/xzbkrawq" method="POST">
+                            <div className="form-group">
+                                <input type="text" className="form-control-input" id="cname" required />
+                                <label className="label-control" htmlFor="cname">Name</label>
+                                <div className="help-block with-errors"></div>
+                            </div>
+                            <div className="form-group">
+                                <input type="email" className="form-control-input" id="cemail" required />
+                                <label className="label-control" htmlFor="cemail">E-Mail</label>
+                                <div className="help-block with-errors"></div>
+                            </div>
+                            <div className="form-group">
+                                <textarea className="form-control-textarea" id="cmessage" required></textarea>
+                                <label className="label-control" htmlFor="cmessage">Nachricht</label>
+                                <div className="help-block with-errors"></div>
+                            </div>
+                            <div className="form-group checkbox">
+                                <input type="checkbox" id="cterms" value="Agreed-to-Terms" required />Ich habe die
+                                <a href="privacy-policy.html">Datenschutzerklärung</a> sowie den
+                                <a href="disclaimer.html">Haftungsausschluss</a> zur Kenntnis genommen und stimme diesen zu.
+                                <div className="help-block with-errors"></div>
+                            </div>
+                            <div className="form-group">
+                                <button type="submit" className="form-control-submit-button">ABSENDEN</button>
+                            </div>
+                            <div className="form-message">
+                                <div id="cmsgSubmit" className="h3 text-center hidden"></div>
+                            </div>
                         </form>
                         {/* end of contact form */}
                     </div>
