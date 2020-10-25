@@ -22,6 +22,7 @@ export default function Impressum() {
               <p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: DE235059136</p>
               <h3>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</h3>
               <p>
+                Martin Laarmann
                 Strascheg Center for Entrepreneurship (SCE) <br />
                 Heßstr. 89 <br />
                 80797 München
