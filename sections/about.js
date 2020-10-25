@@ -20,7 +20,7 @@ export default function About() {
                         {/* Team Member */}
                         <div className="team-member">
                         <div className="image-wrapper">
-                            <img className="img-fluid" src="https://www.sce.de/fileadmin/_processed_/2/1/csm_2020.09-Martin-Laarmann-portrait-WEB_5cf0a77bf6.jpg" alt="alternative" />
+                            <img className="img-fluid" src="/images/team-ml.jpg" alt="alternative" />
                         </div>
                         {/* end of image-wrapper */}
                         <p className="p-large"><strong>Martin Laarmann</strong></p>
@@ -41,7 +41,7 @@ export default function About() {
                         {/* Team Member */}
                         <div className="team-member">
                         <div className="image-wrapper">
-                            <img className="img-fluid" src="https://www.sce.de/fileadmin/_processed_/3/e/csm_Maximilian_Ender-Portrait_c0a92040ec.jpg" alt="alternative" />
+                            <img className="img-fluid" src="/images/team-me.jpg" alt="alternative" />
                         </div>
                         {/* end of image wrapper */}
                         <p className="p-large"><strong>Maximilian Ender</strong></p>
@@ -62,7 +62,7 @@ export default function About() {
                         {/* Team Member */}
                         <div className="team-member">
                         <div className="image-wrapper">
-                            <img className="img-fluid" src="https://www.sce.de/fileadmin/_processed_/e/5/csm_Fabio_Meienschein_8145f88313.jpg" alt="alternative" />
+                            <img className="img-fluid" src="/images/team-fma.jpg" alt="alternative" />
                         </div>
                         {/* end of image wrapper */}
                         <p className="p-large"><strong>Fabio Maienschein</strong></p>
