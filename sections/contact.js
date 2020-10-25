@@ -20,9 +20,9 @@ export default function Contact() {
                     {/* end of row */}
                     <div className="row">
                     <div className="col-lg-6">
-                        <div className="map-responsive">
-                            <img src="/images/maps.png"></img>
-                        </div>
+                        <a href="https://www.google.com/maps/place/Lothstra%C3%9Fe+21,+80797+M%C3%BCnchen/@48.1563229,11.5547461,17z" target="_blank">
+                            <img src="/images/maps.png" width="100%"></img>
+                        </a>
                     </div>
                     {/* end of col */}
                     <div className="col-lg-6">
