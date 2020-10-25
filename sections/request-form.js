@@ -59,7 +59,7 @@ export default function Requestform() {
                             </div>
                             <div className="form-group">
                             <select className="form-control-select" id="rselect" required>
-                                <option className="select-option" value="" disabled selected>Ich bin...</option>
+                                <option className="select-option" value="" disabled defaultValue>Ich bin...</option>
                                 <option className="select-option" value="Student">Student</option>
                                 <option className="select-option" value="Lehrkraft">Lehrkraft</option>
                                 <option className="select-option" value="Mitarbeiter">HM-Mitarbeiter</option>
@@ -69,8 +69,7 @@ export default function Requestform() {
                             </div>
                             <div className="form-group checkbox">
                             <input type="checkbox" id="rterms" value="Agreed-to-Terms" name="rterms" required />Ich stimme zu,
-                            dass meine Daten gemäß der <a href="privacy-policy.html">Privacy Policy</a> und den
-                            <a href="disclaimer.html">Terms & Conditions</a>
+                            dass meine Daten gemäß der&nbsp;<a href="privacy-policy.html">Privacy Policy</a>&nbsp;und den &nbsp;<a href="disclaimer.html">Terms & Conditions</a>&nbsp;
                             verarbeitet werden dürfen.
                             <div className="help-block with-errors"></div>
                             </div>
