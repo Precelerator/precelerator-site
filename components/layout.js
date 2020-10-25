@@ -65,7 +65,7 @@ export default function Layout({ children, home }) {
             </Head>
             <div id="cookies-eu-banner" style={{display: 'none'}}>
                 Wir nutzen Google Analytics und Google Fonts, um dir die Inhalte auf dieser Seite bereitzustellen. Klick auf "Akzeptieren", um unseren Cookie-Richtlinien zuzustimmen.
-                <a href="./read-more.html" id="cookies-eu-more">Mehr erfahren</a>                
+                <a href="/privacy-policy" id="cookies-eu-more">Mehr erfahren</a>                
                 <button id="cookies-eu-accept" className="btn-solid-reg">Akzeptieren</button>
                 <button id="cookies-eu-reject">Ablehnen</button>
             </div>
