@@ -24,7 +24,7 @@ export default function Layout({ children, home }) {
                 {/* website name */}
                 <meta property="og:site" content="https://precelerator.github.io" />
                 {/* website link */}
-                <meta property="og:title" content="Precelerator - Der Projekt-Space am SCE" />
+                <meta property="og:title" content="Precelerator - Der Community-Space am SCE" />
                 {/* title shown in the actual shared post */}
                 <meta
                 property="og:description"
@@ -61,11 +61,20 @@ export default function Layout({ children, home }) {
                 {/* Validator.js - Bootstrap plugin that validates forms */}
                 <script src="/js/scripts.js"></script>
                 {/* Custom scripts */}
+                
             </Head>
+            <div id="cookies-eu-banner" style={{display: 'none'}}>
+                Wir nutzen Google Analytics und Google Fonts, um dir die Inhalte auf dieser Seite bereitzustellen. Klick auf "Akzeptieren", um unseren Cookie-Richtlinien zuzustimmen.
+                <a href="./read-more.html" id="cookies-eu-more">Mehr erfahren</a>                
+                <button id="cookies-eu-accept" className="btn-solid-reg">Akzeptieren</button>
+                <button id="cookies-eu-reject">Ablehnen</button>
+            </div>
             { home ? <Navigation></Navigation> : <Navigation2></Navigation2> }           
             {children}
             <Footer></Footer>
             <Copyright></Copyright>
+            <script src="/js/cookies-eu-banner.js"></script>
+                <script src="/js/cookies-eu-banner-custom.js"></script>
         </div>
     )
 }
