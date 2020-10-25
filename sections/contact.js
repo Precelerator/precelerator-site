@@ -21,15 +21,7 @@ export default function Contact() {
                     <div className="row">
                     <div className="col-lg-6">
                         <div className="map-responsive">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2661.6100343684916!2d11.554746115835144!3d48.15632290783392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75e004131e7f%3A0xefaa5f79a9b82a15!2sLothstra%C3%9Fe%2021%2C%2080797%20M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1601635484733!5m2!1sde!2sde"
-                            width="600"
-                            height="450"
-                            frameBorder="0"
-                            allowFullScreen=""
-                            aria-hidden="false"
-                            tabIndex="0"
-                        ></iframe>
+                            <img src="/images/maps.png"></img>
                         </div>
                     </div>
                     {/* end of col */}
